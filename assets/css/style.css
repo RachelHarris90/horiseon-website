@@ -36,12 +36,10 @@ header ul {
     font-size: 20px;
 }
 
-/* impacts spacing between the nav (list) items */
+/* impacts spacing between the nav (list) items and colour of linked text*/
 header ul li {
     display: inline-block;
     margin-left: 25px;
-    color: #ffffff;
-    text-decoration: none;
 }
 
 
@@ -189,13 +187,15 @@ p {
     font-size: 36px;
 }
 
-.footer {
+/* footer section */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    font-size: 16px;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
