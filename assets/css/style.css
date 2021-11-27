@@ -8,7 +8,12 @@ body {
     background-color: #d9dcd6;
 }
 
-/* impacts header bar size/color and font of Horiseon */
+/* Paragraph text on entire page */
+p {
+    font-size: 16px;
+}
+
+/* Header bar size/color and font of Horiseon */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,18 +21,18 @@ header {
     color: #ffffff;
 }
 
-/* impacts where the "Horiseon" name sits */
+/* Position of "Horiseon" heading */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* changes color of "seo" in header bar */
+/* Color of "seo" in heading */
 #seo {
     color: #d9dcd6;
 }
 
-/* impacts nav items in header */
+/* Items on navigation bar */
 header ul {
     padding-top: 15px;
     margin-right: 20px;
@@ -36,38 +41,13 @@ header ul {
     font-size: 20px;
 }
 
-/* impacts spacing between the nav (list) items and colour of linked text*/
+/* Spacing between the nav (list) items and colour of linked text */
 header ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-/* Content down left of page */
-
-.content section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content img {
-    max-height: 200px;
-}
-
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* main in sections */
-p {
-    font-size: 16px;
-}
-
-
+/* Styling of main image - Digital Marketing Meeting */
 .hero {
     height: 800px;
     width: 100%;
@@ -76,20 +56,43 @@ p {
     background-position: center;
 }
 
+/* Main content, down left of page */
+/* Position of main content */
+.content {
+    width: 75%;
+    display: inline-block;
+}
+
+/* Styling within boxes of main content */
+.content section {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Height of images in main content */
+.content img {
+    max-height: 200px;
+}
+
+/* Headings in content box */
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Position of image relative to text in main content */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
 }
 
 /* Right hand panel */
@@ -121,7 +124,7 @@ p {
 }
 
 
-/* footer section */
+/* Footer section */
 footer {
     padding: 30px;
     clear: both;
