@@ -6,7 +6,7 @@ This repo contains the website for Horiseon Social Solution Services, a dummy co
 The recent enhancements made to the this were done to improve the accessibility of the website by restructuring the code, introducing semantic elements and alt tags to images.
 
 ### Example
-
+![Horiseon home page](/assets/images/horiseon-home-page.png)
 
 ## Built with
 * HTML
@@ -29,6 +29,7 @@ $ git clone https://github.com/RachelHarris90/coding-quiz.git
 
 ## Usage
 The website can be viewed here in Github Pages following this link: https://rachelharris90.github.io/horiseon-website/
+
 
 ## Credits
 The author of this repo is Rachel Harris, a student of Trilogy Fullstack Developer Bootcamp.
